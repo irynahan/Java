@@ -2,8 +2,8 @@ public class TechnicalBook extends Book{
 
     private String scientificField;
 
-    public TechnicalBook(int id, String author, int price, String scientificField) {
-        super(id, author, price);
+    public TechnicalBook(int id, String title, String author, int price, String scientificField) {
+        super(id, title, author, price);
         this.scientificField = scientificField;
     }
 
